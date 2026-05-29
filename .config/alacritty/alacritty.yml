@@ -1,0 +1,31 @@
+font:
+  normal:
+    family: "Hack"
+    style: Regular
+  size: 12.0
+  ligatures: true
+  
+colors:
+  primary:
+    background: '0x1e1e1e'
+    foreground: '0xc5c8c6'
+
+  normal:
+    black:   '0x2d2d2d'
+    red:     '0xFF5f5f'
+    green:   '0x5fff5f'
+    yellow:  '0xFFFF5f'
+    blue:    '0x5f5fff'
+    magenta: '0xFF5fff'
+    cyan:    '0x5fffff'
+    white:   '0xD0D0D0'
+
+  bright:
+    black:   '0x7f7f7f'
+    red:     '0xff5f5f'
+    green:   '0x5fff5f'
+    yellow:  '0xffff5f'
+    blue:    '0x5f5fff'
+    magenta: '0xff5fff'
+    cyan:    '0x5fffff'
+    white:   '0xffffff'
