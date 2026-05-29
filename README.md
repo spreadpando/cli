@@ -20,7 +20,7 @@ stow cli
 ```
 
 ## Dependencies
-install with your package manager, or via `brew` on macOS:
+install with your package manager:
 - [fish](https://fishshell.com/)
 - [starship](https://starship.rs/)
 - [kitty](https://github.com/kovidgoyal/kitty)
