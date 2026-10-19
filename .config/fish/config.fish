@@ -5,9 +5,10 @@ end
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
-    set -x QT_QPA_PLATFORMTHEME qt6ct
-    set -x QT6CT_PLATFORMTHEME_FILE ~/.config/qt6ct/qt6ct.conf
-    # set -x QT_STYLE_OVERRIDE qt6ct
+    # NOTE: Qt theming env (QT_QPA_PLATFORMTHEME) moved to session level so
+    # GUI-launched apps get it too, not just terminal children:
+    #   X11/i3      -> ~/.xprofile
+    #   Wayland/Hypr -> env in ~/.config/hypr (managed in dotfiles/theme)
 end
 
 bind \e\[A history-prefix-search-backward
